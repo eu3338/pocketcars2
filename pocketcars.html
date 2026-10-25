@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #ffffff}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #3586ff; -webkit-text-stroke: #3586ff}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #ffffff; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+    span.s2 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #ffffff}
+    span.s3 {text-decoration: underline ; font-kerning: none; -webkit-text-stroke: 0px #3586ff}
+    span.s4 {text-decoration: underline ; font-kerning: none; color: #3586ff; -webkit-text-stroke: 0px #3586ff}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;title&gt;Pocket Cars | Premium 1:64 Scale Diecast Store&lt;/title&gt;</span></p>
+<p class="p2"><span class="s2">  &lt;script src="<a href="https://cdn.tailwindcss.com/"><span class="s3">https://cdn.tailwindcss.com</span></a>"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;link rel="preconnect" href="<a href="https://fonts.googleapis.com/"><span class="s4">https://fonts.googleapis.com</span></a>"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;link rel="preconnect" href="<a href="https://fonts.gstatic.com/"><span class="s4">https://fonts.gstatic.com</span></a>" crossorigin&gt;</span></p>
+<p class="p2"><span class="s2">  &lt;link href="<a href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap"><span class="s3">https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap</span></a>" rel="stylesheet"&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;script&gt;</span></p>
+<p class="p1"><span class="s1">    tailwind.config = {</span></p>
+<p class="p1"><span class="s1">      theme: {</span></p>
+<p class="p1"><span class="s1">        extend: {</span></p>
+<p class="p1"><span class="s1">          fontFamily: {</span></p>
+<p class="p1"><span class="s1">            sans: ['"Plus Jakarta Sans"', 'sans-serif'],</span></p>
+<p class="p1"><span class="s1">          },</span></p>
+<p class="p1"><span class="s1">          colors: {</span></p>
+<p class="p1"><span class="s1">            hotpink: {</span></p>
+<p class="p1"><span class="s1">              DEFAULT: '#FF1493',</span></p>
+<p class="p1"><span class="s1">              50: '#FFF0F7',</span></p>
+<p class="p1"><span class="s1">              100: '#FFE1F0',</span></p>
+<p class="p1"><span class="s1">              500: '#FF1493',</span></p>
+<p class="p1"><span class="s1">              600: '#E01080',</span></p>
+<p class="p1"><span class="s1">              700: '#C00C6C',</span></p>
+<p class="p1"><span class="s1">            },</span></p>
+<p class="p1"><span class="s1">            tiffany: {</span></p>
+<p class="p1"><span class="s1">              DEFAULT: '#0ABAB5',</span></p>
+<p class="p1"><span class="s1">              50: '#F0FAF9',</span></p>
+<p class="p1"><span class="s1">              100: '#D5F3F2',</span></p>
+<p class="p1"><span class="s1">              500: '#0ABAB5',</span></p>
+<p class="p1"><span class="s1">              600: '#089B97',</span></p>
+<p class="p1"><span class="s1">              700: '#067C79',</span></p>
+<p class="p1"><span class="s1">            }</span></p>
+<p class="p1"><span class="s1">          }</span></p>
+<p class="p1"><span class="s1">        }</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">  &lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;style&gt;</span></p>
+<p class="p1"><span class="s1">    body {</span></p>
+<p class="p1"><span class="s1">      font-family: 'Plus Jakarta Sans', sans-serif;</span></p>
+<p class="p1"><span class="s1">      background-color: #FAFAFA;</span></p>
+<p class="p1"><span class="s1">      color: #18181B;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .custom-scrollbar::-webkit-scrollbar {</span></p>
+<p class="p1"><span class="s1">      width: 6px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .custom-scrollbar::-webkit-scrollbar-track {</span></p>
+<p class="p1"><span class="s1">      background: #F4F4F5;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .custom-scrollbar::-webkit-scrollbar-thumb {</span></p>
+<p class="p1"><span class="s1">      background: #CBD5E1;</span></p>
+<p class="p1"><span class="s1">      border-radius: 9999px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    .custom-scrollbar::-webkit-scrollbar-thumb:hover {</span></p>
+<p class="p1"><span class="s1">      background: #94A3B8;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">  &lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body class="min-h-screen flex flex-col antialiased"&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- TOP ANNOUNCEMENT BAR --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;div class="bg-gradient-to-r from-hotpink to-tiffany text-white text-xs font-bold py-2 px-4 text-center tracking-wide"&gt;</span></p>
+<p class="p1"><span class="s1">    ✨ FREE EXPRESS DELIVERY IN SINGAPORE ON ORDERS OVER S$100 | VISIT OUR STUDIO &amp; NESPRESSO LOUNGE</span></p>
+<p class="p1"><span class="s1">  &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- NAVIGATION BAR --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"&gt;</span></p>
+<p class="p1"><span class="s1">     <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">      &lt;!-- Logo --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="flex items-center space-x-3 cursor-pointer" onclick="resetFilters()"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="w-10 h-10 rounded-xl bg-gradient-to-br from-hotpink to-tiffany flex items-center justify-center text-white font-black text-xl shadow-md"&gt;</span></p>
+<p class="p1"><span class="s1">          P</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span class="text-2xl font-black tracking-tight text-gray-900"&gt;POCKET&lt;span class="text-hotpink"&gt;CARS&lt;/span&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;p class="text-[10px] font-semibold tracking-widest text-tiffany uppercase -mt-1"&gt;1:64 Scale Studio&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;!-- Navigation Links --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;nav class="hidden md:flex items-center space-x-8 font-semibold text-sm text-gray-600"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;a href="#catalog" class="hover:text-hotpink transition-colors"&gt;Catalog&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;a href="#lounge" class="hover:text-tiffany transition-colors"&gt;Store &amp; Lounge&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;a href="#about" class="hover:text-hotpink transition-colors"&gt;About Us&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/nav&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;!-- Cart Trigger Button --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="toggleCart()" class="relative bg-gray-50 hover:bg-hotpink-50 border border-gray-200 hover:border-hotpink-100 text-gray-800 hover:text-hotpink px-4 py-2.5 rounded-xl font-bold text-sm flex items-center space-x-2 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;svg class="w-5 h-5 text-tiffany" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span&gt;Cart&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span id="cart-count" class="bg-hotpink text-white text-xs px-2 py-0.5 rounded-full font-extrabold ml-1"&gt;0&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/header&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- HERO BANNER --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;section class="bg-white border-b border-gray-100 py-12 lg:py-16"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span class="inline-block bg-tiffany-50 border border-tiffany/20 text-tiffany font-extrabold text-xs px-3.5 py-1.5 rounded-full uppercase tracking-wider mb-4"&gt;</span></p>
+<p class="p1"><span class="s1">          Curated Collector Diecasts</span></p>
+<p class="p1"><span class="s1">        &lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-gray-900 tracking-tight leading-tight mb-6"&gt;</span></p>
+<p class="p1"><span class="s1">          Precision Scale &lt;br/&gt;&lt;span class="text-transparent bg-clip-text bg-gradient-to-r from-hotpink to-tiffany"&gt;Automotive Art.&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-gray-500 text-base sm:text-lg leading-relaxed mb-8"&gt;</span></p>
+<p class="p1"><span class="s1">          Explore Singapore’s boutique destination for 1:64 scale diecast models. Featuring factory sealed master cases, rare chase pieces, and custom display editions.</span></p>
+<p class="p1"><span class="s1">        &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex flex-wrap gap-4"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;a href="#catalog" class="bg-hotpink hover:bg-hotpink-600 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-hotpink/20 hover:shadow-hotpink/30 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">            Browse Catalog</span></p>
+<p class="p1"><span class="s1">          &lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;a href="#lounge" class="bg-tiffany-50 hover:bg-tiffany-100 text-tiffany font-bold border border-tiffany/20 px-7 py-3.5 rounded-xl transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">            Visit Retail Studio</span></p>
+<p class="p1"><span class="s1">          &lt;/a&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="relative flex justify-center items-center bg-gradient-to-br from-gray-50 to-gray-100 p-8 rounded-3xl border border-gray-200 shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;svg class="w-full h-64 max-w-md" viewBox="0 0 400 200" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="400" height="200" rx="20" fill="#F8FAFC"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M40 140 H360 V144 H40 Z" fill="#E2E8F0"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;!-- Hero Studio Display Styling --&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="70" y="70" width="260" height="70" rx="12" fill="#0A0A0C"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M100 70 L140 35 H250 L280 70 Z" fill="#18181B"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="120" cy="140" r="24" fill="#18181B" stroke="#0ABAB5" stroke-width="4"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="280" cy="140" r="24" fill="#18181B" stroke="#FF1493" stroke-width="4"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="200" y="115" fill="#FFFFFF" font-weight="900" font-size="14" text-anchor="middle" font-family="sans-serif"&gt;POCKET CARS STUDIO&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- CATALOG &amp; FILTERS --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;main id="catalog" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow w-full"&gt;</span></p>
+<p class="p1"><span class="s1">   <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">    &lt;!-- Controls Header --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h2 class="text-2xl font-black text-gray-900"&gt;Featured Inventory&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-sm text-gray-500"&gt;Filter by brand, scale, or search specific model castings.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;!-- Search Input --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="relative w-full md:w-80"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;input type="text" id="search-input" oninput="filterProducts()" placeholder="Search models, brands, castings..." class="w-full bg-white border border-gray-200 rounded-xl px-4 py-2.5 pl-10 text-sm focus:outline-none focus:border-tiffany focus:ring-2 focus:ring-tiffany/20 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;svg class="w-4 h-4 text-gray-400 absolute left-3.5 top-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;!-- Category Chips --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="flex flex-wrap gap-2 mb-8" id="category-chips"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('all')" class="chip active-chip bg-hotpink text-white font-bold text-xs px-4 py-2 rounded-xl transition-all shadow-sm"&gt;All Brands&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('hot-wheels')" class="chip bg-white border border-gray-200 text-gray-600 hover:border-tiffany hover:text-tiffany font-bold text-xs px-4 py-2 rounded-xl transition-all"&gt;Hot Wheels Premium&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('mini-gt')" class="chip bg-white border border-gray-200 text-gray-600 hover:border-tiffany hover:text-tiffany font-bold text-xs px-4 py-2 rounded-xl transition-all"&gt;MINI GT&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('kaido-house')" class="chip bg-white border border-gray-200 text-gray-600 hover:border-tiffany hover:text-tiffany font-bold text-xs px-4 py-2 rounded-xl transition-all"&gt;Kaido House&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('pop-race')" class="chip bg-white border border-gray-200 text-gray-600 hover:border-tiffany hover:text-tiffany font-bold text-xs px-4 py-2 rounded-xl transition-all"&gt;Pop Race&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;button onclick="setCategory('inno64')" class="chip bg-white border border-gray-200 text-gray-600 hover:border-tiffany hover:text-tiffany font-bold text-xs px-4 py-2 rounded-xl transition-all"&gt;Inno64&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    &lt;!-- Product Grid --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;!-- Dynamic Products Injected via JavaScript --&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/main&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- STORE &amp; LOUNGE SECTION --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;section id="lounge" class="bg-white border-t border-gray-100 py-16"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="bg-gradient-to-br from-hotpink-50 via-white to-tiffany-50 border border-gray-100 rounded-3xl p-8 lg:p-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span class="text-xs font-bold text-hotpink uppercase tracking-widest bg-white border border-hotpink/20 px-3 py-1 rounded-full inline-block mb-4"&gt;In-Store Hospitality&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;h2 class="text-3xl font-black text-gray-900 mb-4"&gt;Visit The Pocket Cars Studio&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;p class="text-gray-600 leading-relaxed mb-6"&gt;</span></p>
+<p class="p1"><span class="s1">            Step into our boutique space designed for diecast enthusiasts. Enjoy complimentary fresh dark-roast espresso from our Nespresso bar, inspect custom diorama display setups, or unbox your fresh purchases at our collector station.</span></p>
+<p class="p1"><span class="s1">          &lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="grid grid-cols-2 gap-4 pt-2"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="block text-xl font-extrabold text-tiffany"&gt;Nespresso&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-xs text-gray-500 font-semibold"&gt;Complimentary Bar&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm"&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="block text-xl font-extrabold text-hotpink"&gt;Dioramas&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-xs text-gray-500 font-semibold"&gt;Live Display Tables&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="rounded-2xl overflow-hidden border border-gray-200 shadow-md bg-white p-6 flex flex-col items-center justify-center text-center"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;svg class="w-full h-48" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;rect width="300" height="150" rx="12" fill="#F8FAFC"/&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;path d="M50 110 H250" stroke="#CBD5E1" stroke-width="4"/&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;rect x="80" y="40" width="40" height="60" rx="4" fill="#0ABAB5"/&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;rect x="140" y="30" width="80" height="70" rx="6" fill="#FF1493"/&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;text x="180" y="70" fill="#FFFFFF" font-weight="900" font-size="10" text-anchor="middle"&gt;COFFEE BAR&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;p class="text-xs font-bold text-gray-500 mt-2"&gt;Nespresso Lounge &amp; Collector Bar&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/section&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- FOOTER --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;footer id="about" class="bg-gray-900 text-gray-400 py-12 border-t border-gray-800"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left grid grid-cols-1 sm:grid-cols-3 gap-8"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span class="text-xl font-black text-white tracking-tight"&gt;POCKET&lt;span class="text-hotpink"&gt;CARS&lt;/span&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-xs text-gray-400 mt-2 leading-relaxed"&gt;Singapore's curated diecast boutique. Specializing in high-detail 1:64 scale diecast models, limited chase editions, and collector supplies.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h4 class="text-sm font-bold text-white mb-3"&gt;Store Location&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-xs text-gray-400"&gt;Singapore Retail Studio&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-xs text-gray-400"&gt;Opening Hours: 12:00 PM – 8:00 PM Daily&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h4 class="text-sm font-bold text-white mb-3"&gt;Payment Rails Supported&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-xs text-gray-400"&gt;PayNow SG, FAST Bank Transfer, Major Credit Cards&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p class="text-xs text-gray-500 mt-4"&gt;© 2026 Pocket Cars Pte. Ltd. All rights reserved.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/footer&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- MODAL: PRODUCT DETAILS --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;div id="product-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div class="bg-white rounded-3xl max-w-lg w-full overflow-hidden shadow-2xl border border-gray-100 transform transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="relative bg-gray-50 p-6 flex justify-center items-center border-b border-gray-100 min-h-[220px]"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;button onclick="closeModal()" class="absolute top-4 right-4 bg-white border border-gray-200 text-gray-500 hover:text-gray-900 rounded-full p-2 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/&gt;&lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div id="modal-svg-container" class="w-full flex justify-center items-center"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="p-6"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;span id="modal-brand" class="text-xs font-extrabold text-tiffany uppercase tracking-wider bg-tiffany-50 border border-tiffany/20 px-2.5 py-1 rounded-full"&gt;&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;h3 id="modal-title" class="text-xl font-black text-gray-900 mt-3"&gt;&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p id="modal-price" class="text-2xl font-black text-hotpink mt-1"&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="mt-4 pt-4 border-t border-gray-100"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"&gt;Specifications&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;p id="modal-specs" class="text-sm text-gray-600 leading-relaxed"&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;button id="modal-add-btn" class="w-full mt-6 bg-hotpink hover:bg-hotpink-600 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-hotpink/20 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">          Add To Cart</span></p>
+<p class="p1"><span class="s1">        &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- SLIDE-OUT CART DRAWER --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;div id="cart-drawer" class="fixed inset-0 z-50 pointer-events-none"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div id="cart-backdrop" onclick="toggleCart()" class="absolute inset-0 bg-black/40 backdrop-blur-xs opacity-0 transition-opacity duration-300 pointer-events-auto hidden"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div id="cart-panel" class="absolute top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl transform translate-x-full transition-transform duration-300 pointer-events-auto flex flex-col"&gt;</span></p>
+<p class="p1"><span class="s1">     <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">      &lt;div class="p-6 border-b border-gray-100 flex items-center justify-between"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex items-center space-x-2"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;svg class="w-5 h-5 text-hotpink" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/&gt;&lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;h3 class="text-lg font-black text-gray-900"&gt;Your Shopping Cart&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;button onclick="toggleCart()" class="text-gray-400 hover:text-gray-700"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/&gt;&lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;!-- Cart Items List --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div id="cart-items" class="flex-grow overflow-y-auto p-6 space-y-4 custom-scrollbar"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;!-- Cart items injected here --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      &lt;!-- Cart Footer / Summary --&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;div class="p-6 border-t border-gray-100 bg-gray-50 space-y-3"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex justify-between text-sm text-gray-600"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span&gt;Subtotal&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span id="cart-subtotal" class="font-bold text-gray-900"&gt;S$0.00&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex justify-between text-sm text-gray-600"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span&gt;GST (9%)&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span id="cart-gst" class="font-bold text-gray-900"&gt;S$0.00&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex justify-between text-base font-black text-gray-900 pt-2 border-t border-gray-200"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span&gt;Total (SGD)&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;span id="cart-total" class="text-hotpink text-xl"&gt;S$0.00&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;button onclick="checkout()" class="w-full mt-4 bg-gradient-to-r from-hotpink to-tiffany text-white font-extrabold py-3.5 rounded-xl shadow-md hover:opacity-95 transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">          Proceed to Checkout</span></p>
+<p class="p1"><span class="s1">        &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">      &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/div&gt;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">  &lt;!-- JAVASCRIPT LOGIC &amp; INVENTORY DATA --&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;script&gt;</span></p>
+<p class="p1"><span class="s1">    // INVENTORY DATA WITH INLINE SVG VECTOR GRAPHICS</span></p>
+<p class="p1"><span class="s1">    const products = [</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 1,</span></p>
+<p class="p1"><span class="s1">        name: "Nissan Skyline GT-R (R34) Nismo R-Tune",</span></p>
+<p class="p1"><span class="s1">        brand: "MINI GT",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 24.90,</span></p>
+<p class="p1"><span class="s1">        category: "mini-gt",</span></p>
+<p class="p1"><span class="s1">        specs: "Diecast metal chassis, soft rubber tires, detailed interior, right-hand drive sealed box.",</span></p>
+<p class="p1"><span class="s1">        badge: "Hot Pick",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-36" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="300" height="150" rx="8" fill="#F1F5F9"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M40 100 L70 55 L210 55 L260 100 Z" fill="#0284C7"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="80" cy="105" r="18" fill="#1E293B" stroke="#94A3B8" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="220" cy="105" r="18" fill="#1E293B" stroke="#94A3B8" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="250" y="65" width="20" height="10" fill="#0284C7"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="150" y="85" fill="#FFFFFF" font-weight="900" font-size="12" text-anchor="middle"&gt;MINI GT R34&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      },</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 2,</span></p>
+<p class="p1"><span class="s1">        name: "Kaido House Datsun 510 Pro Street Surf Wagon",</span></p>
+<p class="p1"><span class="s1">        brand: "Kaido House",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 32.00,</span></p>
+<p class="p1"><span class="s1">        category: "kaido-house",</span></p>
+<p class="p1"><span class="s1">        specs: "Opening hood, alloy engine bay detail, wide body kit, rubber tires, display packaging.",</span></p>
+<p class="p1"><span class="s1">        badge: "New Arrival",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-36" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="300" height="150" rx="8" fill="#F8FAFC"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M30 100 L50 60 L240 60 L270 100 Z" fill="#E11D48"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="75" cy="105" r="18" fill="#0F172A" stroke="#F43F5E" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="225" cy="105" r="18" fill="#0F172A" stroke="#F43F5E" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="100" y="50" width="100" height="10" fill="#F59E0B" rx="2"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="150" y="85" fill="#FFFFFF" font-weight="900" font-size="12" text-anchor="middle"&gt;KAIDO 510&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      },</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 3,</span></p>
+<p class="p1"><span class="s1">        name: "Porsche 911 GT3 RS (992) Lizard Green",</span></p>
+<p class="p1"><span class="s1">        brand: "Pop Race",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 28.50,</span></p>
+<p class="p1"><span class="s1">        category: "pop-race",</span></p>
+<p class="p1"><span class="s1">        specs: "Opening rear engine cover, carbon detail rear wing, clear acrylic case included.",</span></p>
+<p class="p1"><span class="s1">        badge: "Popular",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-36" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="300" height="150" rx="8" fill="#F1F5F9"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M50 105 C70 55, 200 55, 250 105 Z" fill="#10B981"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="85" cy="105" r="18" fill="#18181B" stroke="#6EE7B7" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="215" cy="105" r="18" fill="#18181B" stroke="#6EE7B7" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="40" y="60" width="15" height="25" fill="#047857"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="150" y="85" fill="#FFFFFF" font-weight="900" font-size="12" text-anchor="middle"&gt;911 GT3 RS&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      },</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 4,</span></p>
+<p class="p1"><span class="s1">        name: "Honda Civic Type R (FK8) Spoon Edition",</span></p>
+<p class="p1"><span class="s1">        brand: "Inno64",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 29.90,</span></p>
+<p class="p1"><span class="s1">        category: "inno64",</span></p>
+<p class="p1"><span class="s1">        specs: "Spoon livery decals, extra set of white SW388 custom wheels included inside box.",</span></p>
+<p class="p1"><span class="s1">        badge: "Limited",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-36" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="300" height="150" rx="8" fill="#F8FAFC"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M40 100 L70 58 L210 58 L260 100 Z" fill="#FACC15"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M140 58 L210 58 L260 100 L170 100 Z" fill="#2563EB"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="80" cy="105" r="18" fill="#1E293B" stroke="#FFFFFF" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="220" cy="105" r="18" fill="#1E293B" stroke="#FFFFFF" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="110" y="85" fill="#1E293B" font-weight="900" font-size="12"&gt;SPOON&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      },</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 5,</span></p>
+<p class="p1"><span class="s1">        name: "Hot Wheels Premium Timeless Icons - Nissan Skyline GT-R V-SPEC II (BNR34)",</span></p>
+<p class="p1"><span class="s1">        brand: "Hot Wheels",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 25.00,</span></p>
+<p class="p1"><span class="s1">        category: "hot-wheels",</span></p>
+<p class="p1"><span class="s1">        specs: "Car Culture Timeless Icons Series (FPY86, 4/5). Bayside Blue finish, Metal/Metal construction, Real Riders rubber tires, Japanese license plate (群馬 02 く · V-S II), mint sealed card.",</span></p>
+<p class="p1"><span class="s1">        badge: "Timeless Icons",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-44" viewBox="0 0 280 180" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="280" height="180" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M0 0 H280 V36 H0 Z" fill="#1E293B"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M12 8 Q70 28 120 8" stroke="#E11D48" stroke-width="4" fill="none"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="140" y="22" fill="#F59E0B" font-weight="900" font-size="11" text-anchor="middle"&gt;HOT WHEELS PREMIUM&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="140" y="48" fill="#0F172A" font-weight="800" font-size="10" text-anchor="middle"&gt;TIMELESS ICONS&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;!-- Japanese License Plate --&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="190" y="60" width="40" height="18" fill="#FFFFFF" stroke="#000" stroke-width="1" rx="2"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="210" y="73" fill="#000" font-weight="bold" font-size="7" text-anchor="middle"&gt;群馬 02 V-SII&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;!-- Bayside Blue R34 GT-R --&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="25" y="90" width="230" height="60" rx="10" fill="#1D4ED8"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M60 90 L95 65 L185 65 L215 90 Z" fill="#1E40AF"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="75" cy="150" r="16" fill="#0F172A" stroke="#64748B" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="205" cy="150" r="16" fill="#0F172A" stroke="#64748B" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect x="235" y="132" width="24" height="20" fill="#E11D48" rx="4"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="247" y="146" fill="#FFF" font-weight="900" font-size="10" text-anchor="middle"&gt;4/5&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      },</span></p>
+<p class="p1"><span class="s1">      {</span></p>
+<p class="p1"><span class="s1">        id: 6,</span></p>
+<p class="p1"><span class="s1">        name: "LBWORK Mazda RX-7 FD3S Super Silhouette",</span></p>
+<p class="p1"><span class="s1">        brand: "MINI GT",</span></p>
+<p class="p1"><span class="s1">        scale: "1:64",</span></p>
+<p class="p1"><span class="s1">        price: 26.00,</span></p>
+<p class="p1"><span class="s1">        category: "mini-gt",</span></p>
+<p class="p1"><span class="s1">        specs: "Liberty Walk official licensing, widebody aero, rubber tires, blister card pack.",</span></p>
+<p class="p1"><span class="s1">        badge: "Chase Chance",</span></p>
+<p class="p1"><span class="s1">        svg: `&lt;svg class="w-full h-36" viewBox="0 0 300 150" fill="none"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;rect width="300" height="150" rx="8" fill="#F1F5F9"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;path d="M40 100 L80 60 L200 60 L250 100 Z" fill="#000000"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="85" cy="105" r="18" fill="#18181B" stroke="#0ABAB5" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;circle cx="215" cy="105" r="18" fill="#18181B" stroke="#0ABAB5" stroke-width="3"/&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;text x="140" y="85" fill="#FFFFFF" font-weight="900" font-size="12" text-anchor="middle"&gt;LB-WORKS RX7&lt;/text&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/svg&gt;`</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">    ];</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    let cart = [];</span></p>
+<p class="p1"><span class="s1">    let activeCategory = 'all';</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function renderProducts() {</span></p>
+<p class="p1"><span class="s1">      const grid = document.getElementById('product-grid');</span></p>
+<p class="p1"><span class="s1">      const searchKeyword = document.getElementById('search-input').value.toLowerCase();</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      const filtered = products.filter(item =&gt; {</span></p>
+<p class="p1"><span class="s1">        const matchesCategory = (activeCategory === 'all') || (item.category === activeCategory);</span></p>
+<p class="p1"><span class="s1">        const matchesSearch = item.name.toLowerCase().includes(searchKeyword) || item.brand.toLowerCase().includes(searchKeyword);</span></p>
+<p class="p1"><span class="s1">        return matchesCategory &amp;&amp; matchesSearch;</span></p>
+<p class="p1"><span class="s1">      });</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      if (filtered.length === 0) {</span></p>
+<p class="p1"><span class="s1">        grid.innerHTML = `</span></p>
+<p class="p1"><span class="s1">          &lt;div class="col-span-full text-center py-12 bg-white rounded-2xl border border-gray-100"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;p class="text-gray-400 font-bold text-lg"&gt;No diecast models found matching your search.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;button onclick="resetFilters()" class="mt-3 text-hotpink text-sm font-extrabold hover:underline"&gt;Reset Filters&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        `;</span></p>
+<p class="p1"><span class="s1">        return;</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      grid.innerHTML = filtered.map(item =&gt; `</span></p>
+<p class="p1"><span class="s1">        &lt;div class="bg-white rounded-2xl border border-gray-100 p-4 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="relative bg-gray-50 rounded-xl p-3 mb-4 flex items-center justify-center overflow-hidden cursor-pointer" onclick="openModal(${<a href="http://item.id/"><span class="s4">item.id</span></a>})"&gt;</span></p>
+<p class="p1"><span class="s1">              ${item.badge ? `&lt;span class="absolute top-2 left-2 z-10 bg-hotpink text-white text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider"&gt;${item.badge}&lt;/span&gt;` : ''}</span></p>
+<p class="p1"><span class="s1">              ${item.svg}</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="flex items-center space-x-2 mb-1"&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-[11px] font-extrabold text-tiffany uppercase tracking-wider"&gt;${item.brand}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-[11px] font-bold text-gray-300"&gt;•&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-[11px] font-bold text-gray-400"&gt;${item.scale}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;h3 class="font-bold text-gray-900 text-sm line-clamp-2 mb-2 hover:text-hotpink cursor-pointer" onclick="openModal(${<a href="http://item.id/"><span class="s4">item.id</span></a>})"&gt;${<a href="http://item.name/"><span class="s4">item.name</span></a>}&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="flex items-center justify-between my-3"&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-lg font-black text-gray-900"&gt;S$${item.price.toFixed(2)}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;button onclick="openModal(${<a href="http://item.id/"><span class="s4">item.id</span></a>})" class="text-xs font-extrabold text-tiffany hover:underline"&gt;Details&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;button onclick="addToCart(${<a href="http://item.id/"><span class="s4">item.id</span></a>})" class="w-full bg-tiffany-50 hover:bg-tiffany border border-tiffany/30 hover:border-tiffany text-tiffany hover:text-white font-extrabold text-xs py-2.5 rounded-xl transition-all"&gt;</span></p>
+<p class="p1"><span class="s1">              Add to Cart</span></p>
+<p class="p1"><span class="s1">            &lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      `).join('');</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function setCategory(cat) {</span></p>
+<p class="p1"><span class="s1">      activeCategory = cat;</span></p>
+<p class="p1"><span class="s1">      const buttons = document.querySelectorAll('.chip');</span></p>
+<p class="p1"><span class="s1">      buttons.forEach(btn =&gt; {</span></p>
+<p class="p1"><span class="s1">        btn.classList.remove('bg-hotpink', 'text-white');</span></p>
+<p class="p1"><span class="s1">        btn.classList.add('bg-white', 'text-gray-600');</span></p>
+<p class="p1"><span class="s1">      });</span></p>
+<p class="p1"><span class="s1">      event.target.classList.remove('bg-white', 'text-gray-600');</span></p>
+<p class="p1"><span class="s1">      event.target.classList.add('bg-hotpink', 'text-white');</span></p>
+<p class="p1"><span class="s1">      renderProducts();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function filterProducts() {</span></p>
+<p class="p1"><span class="s1">      renderProducts();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function resetFilters() {</span></p>
+<p class="p1"><span class="s1">      document.getElementById('search-input').value = '';</span></p>
+<p class="p1"><span class="s1">      activeCategory = 'all';</span></p>
+<p class="p1"><span class="s1">      renderProducts();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function openModal(id) {</span></p>
+<p class="p1"><span class="s1">      const item = products.find(p =&gt; <a href="http://p.id/"><span class="s4">p.id</span></a> === id);</span></p>
+<p class="p1"><span class="s1">      if (!item) return;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      document.getElementById('modal-svg-container').innerHTML = item.svg;</span></p>
+<p class="p1"><span class="s1">      document.getElementById('modal-brand').innerText = `${item.brand} | Scale ${item.scale}`;</span></p>
+<p class="p1"><span class="s1">      document.getElementById('modal-title').innerText = <a href="http://item.name/"><span class="s4">item.name</span></a>;</span></p>
+<p class="p1"><span class="s1">      document.getElementById('modal-price').innerText = `S$${item.price.toFixed(2)}`;</span></p>
+<p class="p1"><span class="s1">      document.getElementById('modal-specs').innerText = item.specs;</span></p>
+<p class="p1"><span class="s1">     <span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">      const addBtn = document.getElementById('modal-add-btn');</span></p>
+<p class="p1"><span class="s1">      addBtn.onclick = function() {</span></p>
+<p class="p1"><span class="s1">        addToCart(<a href="http://item.id/"><span class="s4">item.id</span></a>);</span></p>
+<p class="p1"><span class="s1">        closeModal();</span></p>
+<p class="p1"><span class="s1">      };</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      document.getElementById('product-modal').classList.remove('hidden');</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function closeModal() {</span></p>
+<p class="p1"><span class="s1">      document.getElementById('product-modal').classList.add('hidden');</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function addToCart(id) {</span></p>
+<p class="p1"><span class="s1">      const item = products.find(p =&gt; <a href="http://p.id/"><span class="s4">p.id</span></a> === id);</span></p>
+<p class="p1"><span class="s1">      const existing = cart.find(c =&gt; <a href="http://c.id/"><span class="s4">c.id</span></a> === id);</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      if (existing) {</span></p>
+<p class="p1"><span class="s1">        existing.qty += 1;</span></p>
+<p class="p1"><span class="s1">      } else {</span></p>
+<p class="p1"><span class="s1">        cart.push({ ...item, qty: 1 });</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      updateCart();</span></p>
+<p class="p1"><span class="s1">      toggleCart(true);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function updateQty(id, delta) {</span></p>
+<p class="p1"><span class="s1">      const item = cart.find(c =&gt; <a href="http://c.id/"><span class="s4">c.id</span></a> === id);</span></p>
+<p class="p1"><span class="s1">      if (!item) return;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      item.qty += delta;</span></p>
+<p class="p1"><span class="s1">      if (item.qty &lt;= 0) {</span></p>
+<p class="p1"><span class="s1">        cart = cart.filter(c =&gt; <a href="http://c.id/"><span class="s4">c.id</span></a> !== id);</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">      updateCart();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function updateCart() {</span></p>
+<p class="p1"><span class="s1">      const cartCount = document.getElementById('cart-count');</span></p>
+<p class="p1"><span class="s1">      const cartItems = document.getElementById('cart-items');</span></p>
+<p class="p1"><span class="s1">      const cartSubtotal = document.getElementById('cart-subtotal');</span></p>
+<p class="p1"><span class="s1">      const cartGst = document.getElementById('cart-gst');</span></p>
+<p class="p1"><span class="s1">      const cartTotal = document.getElementById('cart-total');</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      const totalItems = cart.reduce((sum, item) =&gt; sum + item.qty, 0);</span></p>
+<p class="p1"><span class="s1">      cartCount.innerText = totalItems;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      if (cart.length === 0) {</span></p>
+<p class="p1"><span class="s1">        cartItems.innerHTML = `</span></p>
+<p class="p1"><span class="s1">          &lt;div class="text-center py-16 text-gray-400"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;svg class="w-12 h-12 mx-auto text-gray-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/&gt;&lt;/svg&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;p class="font-bold"&gt;Your cart is currently empty.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        `;</span></p>
+<p class="p1"><span class="s1">        cartSubtotal.innerText = "S$0.00";</span></p>
+<p class="p1"><span class="s1">        cartGst.innerText = "S$0.00";</span></p>
+<p class="p1"><span class="s1">        cartTotal.innerText = "S$0.00";</span></p>
+<p class="p1"><span class="s1">        return;</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      cartItems.innerHTML = cart.map(item =&gt; `</span></p>
+<p class="p1"><span class="s1">        &lt;div class="flex items-center justify-between border-b border-gray-100 pb-4"&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="flex items-center space-x-3"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div class="w-12 h-12 flex items-center justify-center bg-gray-50 rounded-lg p-1 border border-gray-100"&gt;</span></p>
+<p class="p1"><span class="s1">              ${item.svg}</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;h4 class="text-xs font-extrabold text-gray-900 max-w-[150px] truncate"&gt;${<a href="http://item.name/"><span class="s4">item.name</span></a>}&lt;/h4&gt;</span></p>
+<p class="p1"><span class="s1">              &lt;span class="text-xs font-bold text-hotpink"&gt;S$${item.price.toFixed(2)}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;div class="flex items-center space-x-2 bg-gray-100 rounded-lg p-1"&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;button onclick="updateQty(${<a href="http://item.id/"><span class="s4">item.id</span></a>}, -1)" class="w-6 h-6 flex items-center justify-center font-bold text-gray-600 hover:bg-white rounded"&gt;-&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;span class="text-xs font-bold w-4 text-center"&gt;${item.qty}&lt;/span&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;button onclick="updateQty(${<a href="http://item.id/"><span class="s4">item.id</span></a>}, 1)" class="w-6 h-6 flex items-center justify-center font-bold text-gray-600 hover:bg-white rounded"&gt;+&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">          &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">      `).join('');</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      const subtotal = cart.reduce((sum, item) =&gt; sum + (item.price * item.qty), 0);</span></p>
+<p class="p1"><span class="s1">      const gst = subtotal * 0.09;</span></p>
+<p class="p1"><span class="s1">      const total = subtotal + gst;</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      cartSubtotal.innerText = `S$${subtotal.toFixed(2)}`;</span></p>
+<p class="p1"><span class="s1">      cartGst.innerText = `S$${gst.toFixed(2)}`;</span></p>
+<p class="p1"><span class="s1">      cartTotal.innerText = `S$${total.toFixed(2)}`;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function toggleCart(forceOpen = false) {</span></p>
+<p class="p1"><span class="s1">      const panel = document.getElementById('cart-panel');</span></p>
+<p class="p1"><span class="s1">      const backdrop = document.getElementById('cart-backdrop');</span></p>
+<p class="p1"><span class="s1">      const drawer = document.getElementById('cart-drawer');</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      if (forceOpen || panel.classList.contains('translate-x-full')) {</span></p>
+<p class="p1"><span class="s1">        drawer.classList.remove('pointer-events-none');</span></p>
+<p class="p1"><span class="s1">        backdrop.classList.remove('hidden');</span></p>
+<p class="p1"><span class="s1">        setTimeout(() =&gt; {</span></p>
+<p class="p1"><span class="s1">          backdrop.classList.remove('opacity-0');</span></p>
+<p class="p1"><span class="s1">          panel.classList.remove('translate-x-full');</span></p>
+<p class="p1"><span class="s1">        }, 10);</span></p>
+<p class="p1"><span class="s1">      } else {</span></p>
+<p class="p1"><span class="s1">        panel.classList.add('translate-x-full');</span></p>
+<p class="p1"><span class="s1">        backdrop.classList.add('opacity-0');</span></p>
+<p class="p1"><span class="s1">        setTimeout(() =&gt; {</span></p>
+<p class="p1"><span class="s1">          backdrop.classList.add('hidden');</span></p>
+<p class="p1"><span class="s1">          drawer.classList.add('pointer-events-none');</span></p>
+<p class="p1"><span class="s1">        }, 300);</span></p>
+<p class="p1"><span class="s1">      }</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function checkout() {</span></p>
+<p class="p1"><span class="s1">      if (cart.length === 0) return alert("Your cart is empty!");</span></p>
+<p class="p1"><span class="s1">      alert("Order placed successfully! In a live system, this routes to your PayNow SG or credit card checkout page.");</span></p>
+<p class="p1"><span class="s1">      cart = [];</span></p>
+<p class="p1"><span class="s1">      updateCart();</span></p>
+<p class="p1"><span class="s1">      toggleCart();</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p3"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    renderProducts();</span></p>
+<p class="p1"><span class="s1">  &lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
